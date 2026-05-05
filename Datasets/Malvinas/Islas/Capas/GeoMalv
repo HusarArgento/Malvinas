@@ -1,0 +1,1397 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern elephant seal",
+        "Location": "Sea Lion Island",
+        "Count": 208,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.062154836634626,
+          -52.42549723774336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern elephant seal",
+        "Location": "Sea Lion Island",
+        "Count": 208,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.07381280640456,
+          -52.43104582077279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern elephant seal",
+        "Location": "Sea Lion Island",
+        "Count": 208,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.08449256161261,
+          -52.42354331131609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern elephant seal",
+        "Location": "Carcass Island",
+        "Count": 70,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.59678870633412,
+          -51.25659789359268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "South American fur seal",
+        "Location": "Volunteer Rocks",
+        "Count": 93,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.723783629821256,
+          -51.51513933560653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "South American fur seal",
+        "Location": "Eddystone Rock",
+        "Count": 93,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.058307463694845,
+          -51.189089261010615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "South American fur seal",
+        "Location": "Elephant Jason Island",
+        "Count": 782,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.866582534553814,
+          -51.17031513369807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "South American fur seal",
+        "Location": "North Fur Island",
+        "Count": 782,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.74526432207491,
+          -51.12876946578284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "South American fur seal",
+        "Location": "Seal Rocks",
+        "Count": 782,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.79630184126766,
+          -51.11876461930006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "South American fur seal",
+        "Location": "Jason West Cay",
+        "Count": 177,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.44835702637389,
+          -51.002020257542604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "South American fur seal",
+        "Location": "New Island",
+        "Count": 93,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.31661916208892,
+          -51.696980513859394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "South American fur seal",
+        "Location": "Beaver Island",
+        "Count": 93,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.34228971292309,
+          -51.82434612490288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "South American fur seal",
+        "Location": "Bird Island",
+        "Count": 93,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.92210557637828,
+          -52.168921902020756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "South American fur seal",
+        "Location": "New Island",
+        "Count": 93,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.32414135818654,
+          -51.69099349498167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "South American fur seal",
+        "Location": "New Island",
+        "Count": 93,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.32131846478216,
+          -51.70305494862372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "South American fur seal",
+        "Location": "North Island",
+        "Count": 93,
+        "Year": 2015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.23534646493548,
+          -51.65407965682433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "North West Island",
+        "Count": 74,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.20523333000331,
+          -51.58361666998888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Penguin Point (east; Tamar Is Bare)",
+        "Count": 42,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.43875000000533,
+          -51.35116666997971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Penguin Point (main; Tamar Is Rocks)",
+        "Count": 44,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.441666670005354,
+          -51.351999999979576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Rabbit Island",
+        "Count": 101,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.730389343683456,
+          -51.31438499333719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Bills Islet",
+        "Count": 125,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.824135272396056,
+          -51.352061659402146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Monday Islet",
+        "Count": 11,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.91300553747653,
+          -51.36653900542587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Dry Island",
+        "Count": 1,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.890272715453364,
+          -51.36588220586725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Skip Rock",
+        "Count": 12,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.13617299486321,
+          -51.44275172986118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Government Island",
+        "Count": 22,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.900000000010394,
+          -51.21916666994282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Port Egmont Cays",
+        "Count": 65,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.042500000011835,
+          -51.1833333299238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Wreck Island",
+        "Count": 66,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.24833333001294,
+          -51.15916666988723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Sedge Island",
+        "Count": 6,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.37716667001249,
+          -51.14883332985766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Dunbar Island",
+        "Count": 36,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.37166667001125,
+          -51.370833329858904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Low Island",
+        "Count": 23,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.45667389252444,
+          -51.337780762415775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Low Islands rocks",
+        "Count": 59,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.479045212511984,
+          -51.335580678967766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Twins South",
+        "Count": 68,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6400000000054,
+          -51.24629999977693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Twins North",
+        "Count": 49,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.650900000004974,
+          -51.2387999997729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Gibraltar Rock",
+        "Count": 28,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.76183332999766,
+          -51.320699999728255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "South Fur Island",
+        "Count": 3,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.840833329992044,
+          -51.26133332969234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "South Jason",
+        "Count": 13,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.84418332999263,
+          -51.195333329690826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "North Fur Island",
+        "Count": 39,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.73745992424255,
+          -51.126387424938954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Elephant Jason",
+        "Count": 20,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.850833329992426,
+          -51.16666666968765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Flat Jason",
+        "Count": 51,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.9013364606392,
+          -51.09142004063969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "The Fridays (south)",
+        "Count": 68,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.972868724043934,
+          -51.058559446314156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Steeple Jason Islet",
+        "Count": 132,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.15349999995028,
+          -51.05983332950917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "3rd Passage Island",
+        "Count": 45,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.83224999998862,
+          -51.57423332969604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Split Island",
+        "Count": 21,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.720266669998814,
+          -51.467249999745576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Cliff Island",
+        "Count": 86,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.56166667000641,
+          -51.477833329803985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Sea Lion Island",
+        "Count": 50,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.09300000000232,
+          -52.43899999999186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Rabbit Island",
+        "Count": 10,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.487016670008074,
+          -51.54913332982728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Gibbs Island",
+        "Count": 22,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.2999333300104,
+          -51.64959999987582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Town Point Rocks",
+        "Count": 14,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.24713333001067,
+          -51.65611666988726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Shallow Harbour Islet",
+        "Count": 100,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.514833330005565,
+          -51.78584999981875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Outer Island",
+        "Count": 45,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.52533333000464,
+          -51.86159999981546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "West Double Creek",
+        "Count": 34,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.59445000000091,
+          -51.973783329792674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Circum Island",
+        "Count": 71,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.87448332997925,
+          -51.93113332967519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Hill Main",
+        "Count": 27,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.07802303845017,
+          -51.79560184679529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Hill Islet",
+        "Count": 48,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.07504999995038,
+          -51.7985333295608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Weddell Is (Quaker Pass)",
+        "Count": 45,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.03146666995886,
+          -51.781216669588176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Stinker Island",
+        "Count": 135,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.19316666992253,
+          -51.82679999947895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Stuck in the mud",
+        "Count": 95,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.166700045960546,
+          -51.8499343403147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Tussack Islands (most north)",
+        "Count": 71,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.951149999967804,
+          -52.01648332963475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Bare Is (East of cross)",
+        "Count": 39,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.67958332999392,
+          -52.19933332976145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Peat Island",
+        "Count": 39,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.47563333000401,
+          -52.18188332983045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Calista Island",
+        "Count": 24,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.85591667000827,
+          -52.022183329947694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "North Wedge Island",
+        "Count": 39,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.79721892336361,
+          -52.00310755563911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Sandy Tyssen",
+        "Count": 56,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.630850000006596,
+          -51.87886666996802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "West Tyssen",
+        "Count": 126,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.66536667000688,
+          -51.89456666996543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Clump Island",
+        "Count": 2,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.7544224605096,
+          -52.024490752811865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Mike's Island",
+        "Count": 57,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.746800000007276,
+          -52.103349999958574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Sandy Elephant Cay",
+        "Count": 130,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.846318971320116,
+          -52.13212757631391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "East Cay",
+        "Count": 30,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.843900000007906,
+          -52.160083329948996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Speedwell Islet",
+        "Count": 70,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.741690892454,
+          -52.30708912418336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Speedwell Pass Point (George Island)",
+        "Count": 77,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.7434983617005,
+          -52.30684181613403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Blind Island",
+        "Count": 159,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.53675000000535,
+          -52.27138332997428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Tussock Point Island North (Bull Point)",
+        "Count": 64,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.397170999903565,
+          -52.34111287085483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Fanny Island (south)",
+        "Count": 61,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.325366670003774,
+          -52.250349999984714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Cattle Point Island",
+        "Count": 5,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.25601667000335,
+          -52.20124999998725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Sisters",
+        "Count": 60,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.992435868665424,
+          -52.18661799244091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Turn Island",
+        "Count": 51,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.92166667000161,
+          -52.11908332999512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Outer Triste Island",
+        "Count": 91,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.710750000000914,
+          -52.14798332999756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Motley Island",
+        "Count": 18,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.60258333000067,
+          -52.148283329998335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Sal Islands",
+        "Count": 83,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.53291667000053,
+          -52.06376666999872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Green Island",
+        "Count": 181,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.507616670000495,
+          -51.962149999998836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "North East Island",
+        "Count": 48,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.35651667000029,
+          -52.00583332999937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Kelp Islands (north)",
+        "Count": 260,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.187583330000145,
+          -51.85459999999971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Port Harriet (seal point)",
+        "Count": 93,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.853,
+          -51.738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Big Shag Island",
+        "Count": 328,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.31600000000027,
+          -51.39399999999947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Cape Dolphin",
+        "Count": 172,
+        "Year": 2014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.94800000000192,
+          -51.24599999999471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Beauchene Island",
+        "Count": 3,
+        "Year": 2010
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.19162990463354,
+          -52.90876669772461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Species": "Southern sea lion",
+        "Location": "Port Louis",
+        "Count": 64,
+        "Year": 2003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.16600000000013,
+          -51.386999999999745
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+Section ID,Section,HS4 ID,HS4,Country Exports,Global Exports,Country Market Share,Global Share
+1,Animal Products,0202,Frozen Bovine Meat,8926.0,36731118766.0,0.002,0.160
+1,Animal Products,0204,Sheep and Goat Meat,1921519.0,9008008299.0,0.507,0.039
+1,Animal Products,0301,Live Fish,129.0,2436451153.0,0.000,0.011
+1,Animal Products,0302,Non-fillet Fresh Fish,47616.0,25907250681.0,0.013,0.113
+1,Animal Products,0303,Non-fillet Frozen Fish,38067849.0,26854514392.0,10.049,0.117
+1,Animal Products,0304,Fish Fillets,1761301.0,29690568175.0,0.465,0.129
+1,Animal Products,0306,Crustaceans,2133.0,31802959396.0,0.001,0.139
+1,Animal Products,0307,Molluscs,325605437.0,14657005677.0,85.956,0.064
+4,Foodstuffs,1605,Processed Crustaceans,23220.0,10249500363.0,0.006,0.045
+4,Foodstuffs,1905,Baked Goods,23.0,58366799768.0,0.000,0.254
+4,Foodstuffs,2008,Other Processed Fruits and Nuts,34.0,20936273542.0,0.000,0.091
+4,Foodstuffs,2106,Other Edible Preparations,9885.0,63845500629.0,0.003,0.278
+4,Foodstuffs,2301,Animal Meal and Pellets,943.0,9405409526.0,0.000,0.041
+4,Foodstuffs,2302,Bran,1755.0,2976156334.0,0.000,0.013
+4,Foodstuffs,2309,Animal Food,289102.0,46869861426.0,0.076,0.204
+5,Mineral Products,2710,Refined Petroleum,221.0,883642898355.0,0.000,3.851
+6,Chemical Products,3002,"Vaccines, blood, antisera, toxins and cultures",11668.0,329849040722.0,0.003,1.438
+6,Chemical Products,3006,Special Pharmaceuticals,55450.0,20372997453.0,0.015,0.089
+6,Chemical Products,3303,Perfumes,1054.0,28697985705.0,0.000,0.125
+6,Chemical Products,3304,Beauty Products,1324.0,67210104226.0,0.000,0.293
+6,Chemical Products,3307,Shaving Products,4882.0,15257906058.0,0.001,0.066
+6,Chemical Products,3404,Waxes,12823.0,4097939676.0,0.003,0.018
+6,Chemical Products,3507,Enzymes,6916.0,7623198537.0,0.002,0.033
+6,Chemical Products,3801,Artificial Graphite,906.0,3642836765.0,0.000,0.016
+6,Chemical Products,3822,Laboratory Reagents,804.0,46778036283.0,0.000,0.204
+6,Chemical Products,3825,Residual products of the chemical or allied industries,103.0,323026021.0,0.000,0.001
+7,Plastics and Rubbers,3907,Polyacetals,4395.0,66200126151.0,0.001,0.289
+7,Plastics and Rubbers,3917,Plastic Pipes,481.0,33241172064.0,0.000,0.145
+7,Plastics and Rubbers,3922,Plastic Wash Basins,5498.0,5396888562.0,0.001,0.024
+7,Plastics and Rubbers,3923,Plastic Lids,108.0,67134051340.0,0.000,0.293
+7,Plastics and Rubbers,3924,Plastic Housewares,86.0,25963188506.0,0.000,0.113
+7,Plastics and Rubbers,3926,Other Plastic Products,1995.0,98515888580.0,0.001,0.429
+7,Plastics and Rubbers,4009,Rubber Pipes,2715.0,12904391457.0,0.001,0.056
+7,Plastics and Rubbers,4011,Rubber Tires,175.0,101218331649.0,0.000,0.441
+7,Plastics and Rubbers,4015,Rubber Apparel,34956.0,9798942184.0,0.009,0.043
+7,Plastics and Rubbers,4016,Other Rubber Products,7349.0,34174108224.0,0.002,0.149
+8,Animal Hides,4113,Leather further prepared after tanning or crusting of animals (other than ovine),20.0,739189520.0,0.000,0.003
+8,Animal Hides,4202,Trunks and Cases,218.0,80094521649.0,0.000,0.349
+8,Animal Hides,4203,Leather Apparel,1546.0,7262131897.0,0.000,0.032
+9,Wood Products,4415,Wood Crates,117.0,5075622898.0,0.000,0.022
+10,Paper Goods,4902,Newspapers,557.0,2229502453.0,0.000,0.010
+10,Paper Goods,4907,Documents of title (bonds etc) and unused stamps,9705.0,2330421084.0,0.003,0.010
+10,Paper Goods,4911,Other Printed Material,63.0,10461616022.0,0.000,0.046
+11,Textiles,5101,Wool,6592586.0,2825987125.0,1.740,0.012
+11,Textiles,5407,Synthetic Filament Yarn Woven Fabric,4554.0,27325639695.0,0.001,0.119
+11,Textiles,5608,"Twine, cordage or rope; knotted netting, made up fishing nets and other made up nets, of textile materials",61877.0,1972133038.0,0.016,0.009
+11,Textiles,5609,Other Articles of Twine and Rope,550.0,844668034.0,0.000,0.004
+11,Textiles,5909,Hose Piping Textiles,143.0,444113718.0,0.000,0.002
+11,Textiles,6101,Knit Men's Coats,224.0,3405819465.0,0.000,0.015
+11,Textiles,6106,Knit Women's Shirts,650.0,5609268578.0,0.000,0.024
+11,Textiles,6109,Knit T-shirts,15.0,50384250843.0,0.000,0.220
+11,Textiles,6111,Knit Babies' Garments,361.0,7327947563.0,0.000,0.032
+11,Textiles,6112,Knit Active Wear,53.0,5297175431.0,0.000,0.023
+11,Textiles,6113,Garments of Impregnated Fabric,1310.0,1339775370.0,0.000,0.006
+11,Textiles,6204,Non-Knit Women's Suits,13.0,72210686328.0,0.000,0.315
+11,Textiles,6205,Non-Knit Men's Shirts,151.0,13065027688.0,0.000,0.057
+11,Textiles,6211,Non-Knit Active Wear,178.0,14015522461.0,0.000,0.061
+11,Textiles,6214,Scarves,259.0,3246513062.0,0.000,0.014
+11,Textiles,6307,Other Cloth Articles,1757.0,20088862443.0,0.000,0.088
+11,Textiles,6310,Textile Scraps,4762.0,647419823.0,0.001,0.003
+12,Footwear and Headwear,6403,Leather Footwear,603.0,59729060786.0,0.000,0.260
+12,Footwear and Headwear,6404,Textile Footwear,96.0,46443890593.0,0.000,0.202
+13,Stone And Glass,6911,Porcelain Tableware,1408.0,6122768432.0,0.000,0.027
+14,Precious Metals,7113,Jewellery,5027.0,122903305956.0,0.001,0.536
+14,Precious Metals,7117,Imitation Jewellery,4644.0,8043644311.0,0.001,0.035
+15,Metals,7204,Scrap Iron,19028.0,44696625576.0,0.005,0.195
+15,Metals,7214,Raw Iron Bars,455.0,18585103446.0,0.000,0.081
+15,Metals,7307,Iron Pipe Fittings,1418.0,22478729685.0,0.000,0.098
+15,Metals,7312,Stranded Iron Wire,1647.0,7819139841.0,0.000,0.034
+15,Metals,7315,Iron Chains,5728.0,5799526746.0,0.002,0.025
+15,Metals,7318,Iron Fasteners,314.0,48773148207.0,0.000,0.213
+15,Metals,7404,Scrap Copper,78063.0,38339973482.0,0.021,0.167
+15,Metals,7613,Aluminium Gas Containers,75.0,685984531.0,0.000,0.003
+15,Metals,8204,Wrenches,40.0,4093888694.0,0.000,0.018
+15,Metals,8205,Other Hand Tools,96.0,9163175103.0,0.000,0.040
+15,Metals,8207,Interchangeable Tool Parts,495.0,22836267960.0,0.000,0.100
+15,Metals,8211,Knives,828.0,3109240375.0,0.000,0.014
+15,Metals,8302,Metal Mountings,28373.0,43475034181.0,0.007,0.189
+15,Metals,8308,Other Metal Fasteners,790.0,4573753823.0,0.000,0.020
+16,Machines,8409,Engine Parts,602.0,71938810149.0,0.000,0.314
+16,Machines,8413,Liquid Pumps,1017.0,77620004907.0,0.000,0.338
+16,Machines,8414,Air Pumps,948.0,95182863342.0,0.000,0.415
+16,Machines,8421,Centrifuges,57208.0,93029416398.0,0.015,0.405
+16,Machines,8425,Pulley Systems,1259.0,8457326499.0,0.000,0.037
+16,Machines,8431,Excavation Machinery,2620.0,67931175545.0,0.001,0.296
+16,Machines,8433,Harvesting Machinery,568.0,26503989898.0,0.000,0.116
+16,Machines,8438,Industrial Food Preperation Machinery,419.0,16818969144.0,0.000,0.073
+16,Machines,8443,Industrial Printers,2401358.0,82055784877.0,0.634,0.358
+16,Machines,8467,Motor-working Tools,1063.0,33087964738.0,0.000,0.144
+16,Machines,8471,Computers,2138.0,507010282715.0,0.001,2.210
+16,Machines,8474,Stone Processing Machines,484.0,20660129532.0,0.000,0.090
+16,Machines,8479,Machinery Having Individual Functions,40584.0,100178388625.0,0.011,0.437
+16,Machines,8481,Valves,1877.0,113009119422.0,0.000,0.493
+16,Machines,8482,Ball Bearings,8.0,32810385819.0,0.000,0.143
+16,Machines,8484,Gaskets,128.0,8627103724.0,0.000,0.038
+16,Machines,8501,Electric Motors,3205.0,73234249704.0,0.001,0.319
+16,Machines,8504,Electrical Transformers,4277.0,154215867137.0,0.001,0.672
+16,Machines,8512,Electrical Lighting and Signalling Equipment,5485.0,36465082357.0,0.001,0.159
+16,Machines,8516,Electric Heaters,2650.0,69405263386.0,0.001,0.302
+16,Machines,8517,Telephones,4972.0,594184532734.0,0.001,2.590
+16,Machines,8519,Sound Recording Equipment,636.0,3967629734.0,0.000,0.017
+16,Machines,8523,Blank Audio Media,1180.0,73049118085.0,0.000,0.318
+16,Machines,8529,Broadcasting Accessories,1498.0,61873719222.0,0.000,0.270
+16,Machines,8532,Electrical Capacitors,275.0,32372478700.0,0.000,0.141
+16,Machines,8536,Low-voltage Protection Equipment,37828.0,120329120020.0,0.010,0.524
+16,Machines,8537,Electrical Control Boards,14298.0,93199674230.0,0.004,0.406
+16,Machines,8538,Electrical Power Accessories,1656.0,41050744258.0,0.000,0.179
+16,Machines,8543,Other Electrical Machinery,3638.0,60997523802.0,0.001,0.266
+16,Machines,8544,Insulated Wire,87494.0,173882006488.0,0.023,0.758
+16,Machines,8547,Metal Insulating Fittings,4493.0,7230388499.0,0.001,0.032
+17,Transportation,8607,Locomotive Parts,7449.0,14221588503.0,0.002,0.062
+17,Transportation,8703,Cars,72899.0,973095602458.0,0.019,4.241
+17,Transportation,8708,Motor vehicles; parts and accessories (8701 to 8705),925.0,451858686301.0,0.000,1.969
+17,Transportation,8714,Bi-Wheel Vehicle Parts,73.0,25298071385.0,0.000,0.110
+17,Transportation,8716,"Trailers and semi-trailers, not mechanically propelled vehicles",4015.0,33879532212.0,0.001,0.148
+17,Transportation,8802,"Planes, Helicopters, and/or Spacecraft",399392.0,151234051582.0,0.105,0.659
+17,Transportation,8807,"Aircraft parts for spacecraft, UAVs, and ground equipment",722903.0,95686519814.0,0.191,0.417
+17,Transportation,8903,Recreational Boats,3144.0,22463688464.0,0.001,0.098
+17,Transportation,8907,Other Floating Structures,629.0,1627010852.0,0.000,0.007
+18,Instruments,9001,Optical Fibers and optical fibre bundles,110.0,30493645926.0,0.000,0.133
+18,Instruments,9015,Surveying Equipment,9726.0,10880927618.0,0.003,0.047
+18,Instruments,9018,Medical Instruments,3307.0,175227115168.0,0.001,0.764
+18,Instruments,9027,Chemical Analysis Instruments,3030.0,55934681547.0,0.001,0.244
+18,Instruments,9029,Revolution Counters,4816.0,9770765593.0,0.001,0.043
+18,Instruments,9031,Other Measuring Instruments,4677.0,60036463877.0,0.001,0.262
+18,Instruments,9202,String Instruments,75.0,999821244.0,0.000,0.004
+20,Miscellaneous,9401,Seats,71562.0,92258341863.0,0.019,0.402
+20,Miscellaneous,9503,Other toys,147.0,62447910630.0,0.000,0.272
+20,Miscellaneous,9504,Video and Card Games,72031.0,34799297683.0,0.019,0.152
+20,Miscellaneous,9505,Party Decorations,28.0,10837075699.0,0.000,0.047
+20,Miscellaneous,9506,Sports Equipment,200.0,33471198900.0,0.000,0.146
+20,Miscellaneous,9507,Fishing and Hunting Equipment,2220.0,3791354628.0,0.001,0.017
+20,Miscellaneous,9603,Brooms,524.0,12610674010.0,0.000,0.055
+20,Miscellaneous,9607,Zippers,320.0,3171971219.0,0.000,0.014
+21,Arts and Antiques,9704,Revenue Stamps,1690.0,123152108.0,0.000,0.001
+21,Arts and Antiques,9705,Collector's Items,7130.0,1750713342.0,0.002,0.008

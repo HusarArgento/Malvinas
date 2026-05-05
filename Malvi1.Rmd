@@ -1,0 +1,169 @@
+---
+title: "Untitled"
+author: "Lucas Melfi"
+date: "2026-05-04"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+```{r}
+install.packages("esquisse")
+install.packages("plotly")
+library (esquisse)
+library(plotly)
+library(tidyverse)
+library(readxl)
+library(janitor)
+library(scales)
+library(forcats)
+
+
+```
+
+
+```{r}
+g_export <- falkland_islands_market_share_on_global_trade_1
+str(g_export)
+atos$variable <- as.numeric(datos$variable)
+g_export2 <- g_export %>% clean_names()
+g_export2 <- g_export2 %>%
+  mutate(across(c(ends_with("_exports"), ends_with("_share")), as.numeric))
+str(g_export2)
+
+
+
+```
+
+```{r}
+top5 <- g_export2 %>%
+  slice_max(country_exports, n = 5) %>%
+  arrange(desc(country_exports))
+```
+
+```{r}
+ggplot(top5) +
+  aes(x = fct_reorder(hs4, country_exports, .desc = TRUE), y = country_exports) +
+  geom_col(fill = "#112446") +
+  scale_y_continuous(labels = label_number(scale = 1e-6, suffix = " M")) +
+  theme_minimal()
+
+```
+```{r}
+ggplot(top5) +
+  aes(x = fct_reorder(hs4, country_exports, .desc = TRUE), y = country_exports) +
+  geom_col(fill = "#112446") +
+  scale_y_continuous(labels = label_number(scale = 1e-6, suffix = " M")) + 
+  labs(
+    title = "Top 5 exportaciones",
+    x = "Producto (HS4)",
+    y = "Exportaciones (millones USD)"
+  ) +  
+  theme_minimal()
+
+```
+```{r}
+ggplot(top5) +
+  aes(x = fct_reorder(hs4, country_exports, .desc = TRUE), y = country_exports) +
+  geom_col(fill = "#112446") +
+  scale_y_continuous(labels = label_number(scale = 1e-6, suffix = " M")) + 
+  labs(
+    title = "Top 5 exportaciones",
+    x = "Producto (HS4)",
+    y = "Exportaciones (millones USD)")+
+    geom_text(aes(label = round(country_exports/1e6, 1)), 
+            vjust = -0.3) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+```{r}
+ggplot(top5) +
+  aes(x = fct_reorder(hs4, country_exports, .desc = TRUE), y = country_exports) +
+  geom_col(fill = "#112446") +
+  scale_y_continuous(labels = label_number(scale = 1e-6, suffix = " M")) + 
+  labs(
+    title = "Top 5 exportaciones",
+    x = "Producto (HS4)",
+    y = "Exportaciones (millones USD)")+ 
+  geom_text(aes(label = label_number(scale = 1e-6, suffix = " M")(country_exports)), 
+            vjust = -0.3) +
+  scale_y_continuous(labels = label_number(scale = 1e-6, suffix = " M")) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+```{r}
+ggplot(top5) +
+  aes(x = fct_reorder(hs4, country_exports, .desc = TRUE), 
+      y = country_exports) +
+  geom_col(fill = "#112446") +
+  geom_text(
+    aes(label = scales::label_number(scale = 1e-6, suffix = " M")(country_exports)),
+    vjust = 1.5,
+    color = "white"
+  ) +
+  scale_y_continuous(labels = scales::label_number(scale = 1e-6, suffix = " M")) +
+  labs(
+    title = "Top 5 exportaciones",
+    x = "Producto (HS4)",
+    y = "Exportaciones (millones USD)"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+```{r}
+ggplot(top5) +
+  aes(x = fct_reorder(hs4, country_exports, .desc = TRUE), 
+      y = country_exports) +
+  geom_col(fill = "#112446") +
+  geom_text(
+    aes(
+      label = scales::label_number(scale = 1e-6, suffix = " M")(country_exports),
+      vjust = ifelse(country_exports > max(country_exports)*0.6, 1.5, -0.3),
+      color = ifelse(country_exports > max(country_exports)*0.6, "white", "black")
+    )
+  ) +
+  scale_y_continuous(labels = scales::label_number(scale = 1e-6, suffix = " M")) +
+  labs(
+    title = "Top 5 exportaciones Islas Malvinas 2023",
+    x = "Producto (HS4)",
+    y = "Exportaciones (millones USD)"
+  ) +
+  theme_minimal() +
+  theme(
+  axis.text.x = element_text(angle = 45, hjust = 1),
+  legend.position = "none",
+  plot.title = element_text(
+    size = 16,
+    face = "bold",
+    hjust = 0.5, 
+    color = "grey40"
+  )
+)
+```
+```{r}
+rm(g_export)
+```
+
