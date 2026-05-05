@@ -21,3 +21,12 @@ viviendas |>
 
 datos <- datos %>%
   mutate(across(c(col1, col2, col3), as.numeric))
+datos <- datos %>%
+  mutate(across(starts_with("var_"), as.numeric))
+datos <- datos %>%
+  mutate(across(where(is.character), as.numeric))
+datos <- datos %>%
+  mutate(across(c(col1, col2), parse_number))
+
+g_export2 <- g_export2 %>%
+  mutate(across(c(ends_with("_exports"), ends_with("_finances")), as.numeric))

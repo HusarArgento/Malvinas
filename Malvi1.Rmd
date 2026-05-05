@@ -164,6 +164,16 @@ ggplot(top5) +
 )
 ```
 ```{r}
-rm(g_export)
+gasto_uk <- gasto_uk %>% 
+  select(-c(1, 2, 3))
+
+gasto_uk2 <- gasto_uk %>% 
+  pivot_longer(
+    cols = where(is.numeric),
+    names_to = "anio",
+    values_to = "pbi_pct"
+  )
+write.csv(gasto_uk2, "gasto_uk.csv", row.names = FALSE )
+
 ```
 
