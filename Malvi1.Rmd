@@ -9,26 +9,6 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
 
 ```{r}
 install.packages("esquisse")
@@ -40,41 +20,41 @@ library(readxl)
 library(janitor)
 library(scales)
 library(forcats)
-
+library(readxl)
+options(scipen = 999)
 
 ```
 
 
 ```{r}
-g_export <- falkland_islands_market_share_on_global_trade_1
-str(g_export)
-atos$variable <- as.numeric(datos$variable)
-g_export2 <- g_export %>% clean_names()
-g_export2 <- g_export2 %>%
-  mutate(across(c(ends_with("_exports"), ends_with("_share")), as.numeric))
-str(g_export2)
+
+exp_prod <- read_excel("Datasets/Malvinas/Nongeo/falkland-islandss-exported-products-1.xlsx")
+exp_prod <- exp_prod %>% clean_names()
+exp_prod <- exp_prod %>%
+  mutate(across(c(starts_with("exports"), starts_with("share")), as.numeric))
+str(exp_prod)
 
 
 
 ```
 
 ```{r}
-top5 <- g_export2 %>%
-  slice_max(country_exports, n = 5) %>%
-  arrange(desc(country_exports))
+top5_exprod <- exp_prod %>%
+  slice_max(exports_usd, n = 5) %>%
+  arrange(desc(exports_usd))
 ```
 
 ```{r}
-ggplot(top5) +
-  aes(x = fct_reorder(hs4, country_exports, .desc = TRUE), y = country_exports) +
+ggplot(top5_exprod) +
+  aes(x = fct_reorder(hs4, exports_usd, .desc = TRUE), y = exports_usd) +
   geom_col(fill = "#112446") +
   scale_y_continuous(labels = label_number(scale = 1e-6, suffix = " M")) +
   theme_minimal()
 
 ```
 ```{r}
-ggplot(top5) +
-  aes(x = fct_reorder(hs4, country_exports, .desc = TRUE), y = country_exports) +
+ggplot(top5_exprod) +
+  aes(x = fct_reorder(hs4, exports_usd, .desc = TRUE), y = exports_usd) +
   geom_col(fill = "#112446") +
   scale_y_continuous(labels = label_number(scale = 1e-6, suffix = " M")) + 
   labs(
@@ -86,41 +66,41 @@ ggplot(top5) +
 
 ```
 ```{r}
-ggplot(top5) +
-  aes(x = fct_reorder(hs4, country_exports, .desc = TRUE), y = country_exports) +
+ggplot(top5_exprod) +
+  aes(x = fct_reorder(hs4, exports_usd, .desc = TRUE), y = exports_usd) +
   geom_col(fill = "#112446") +
   scale_y_continuous(labels = label_number(scale = 1e-6, suffix = " M")) + 
   labs(
     title = "Top 5 exportaciones",
     x = "Producto (HS4)",
     y = "Exportaciones (millones USD)")+
-    geom_text(aes(label = round(country_exports/1e6, 1)), 
+    geom_text(aes(label = round(exports_usd/1e6, 1)), 
             vjust = -0.3) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 ```
 
 ```{r}
-ggplot(top5) +
-  aes(x = fct_reorder(hs4, country_exports, .desc = TRUE), y = country_exports) +
+ggplot(top5_exprod) +
+  aes(x = fct_reorder(hs4, exports_usd, .desc = TRUE), y = exports_usd) +
   geom_col(fill = "#112446") +
   scale_y_continuous(labels = label_number(scale = 1e-6, suffix = " M")) + 
   labs(
     title = "Top 5 exportaciones",
     x = "Producto (HS4)",
     y = "Exportaciones (millones USD)")+ 
-  geom_text(aes(label = label_number(scale = 1e-6, suffix = " M")(country_exports)), 
+  geom_text(aes(label = label_number(scale = 1e-6, suffix = " M")(exports_usd)), 
             vjust = -0.3) +
   scale_y_continuous(labels = label_number(scale = 1e-6, suffix = " M")) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 ```{r}
-ggplot(top5) +
-  aes(x = fct_reorder(hs4, country_exports, .desc = TRUE), 
-      y = country_exports) +
+ggplot(top5_exprod) +
+  aes(x = fct_reorder(hs4, exports_usd, .desc = TRUE), 
+      y = exports_usd) +
   geom_col(fill = "#112446") +
   geom_text(
-    aes(label = scales::label_number(scale = 1e-6, suffix = " M")(country_exports)),
+    aes(label = scales::label_number(scale = 1e-6, suffix = " M")(exports_usd)),
     vjust = 1.5,
     color = "white"
   ) +
@@ -134,15 +114,15 @@ ggplot(top5) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 ```{r}
-ggplot(top5) +
-  aes(x = fct_reorder(hs4, country_exports, .desc = TRUE), 
-      y = country_exports) +
+ggplot(top5_exprod) +
+  aes(x = fct_reorder(hs4, exports_usd, .desc = TRUE), 
+      y = exports_usd) +
   geom_col(fill = "#112446") +
   geom_text(
     aes(
-      label = scales::label_number(scale = 1e-6, suffix = " M")(country_exports),
-      vjust = ifelse(country_exports > max(country_exports)*0.6, 1.5, -0.3),
-      color = ifelse(country_exports > max(country_exports)*0.6, "white", "black")
+      label = scales::label_number(scale = 1e-6, suffix = " M")(exports_usd),
+      vjust = ifelse(exports_usd > max(exports_usd)*0.6, 1.5, -0.3),
+      color = ifelse(exports_usd > max(exports_usd)*0.6, "white", "black")
     )
   ) +
   scale_y_continuous(labels = scales::label_number(scale = 1e-6, suffix = " M")) +
@@ -163,6 +143,160 @@ ggplot(top5) +
   )
 )
 ```
+
+
+
+```{r}
+ggplot(top5_exprod) +
+  aes(
+    x = fct_reorder(hs4, share_percent, .desc = TRUE),
+    y = share_percent
+  ) +
+
+  geom_col(fill = "#112446") +
+
+  geom_text(
+    aes(
+      label = paste0(round(share_percent, 1), "%"),
+      vjust = ifelse(share_percent > 10, 1.5, -0.5),
+      color = ifelse(share_percent > 10, "white", "#8B0000")
+    )
+  ) +
+
+  scale_color_identity() +
+
+  scale_y_continuous(
+    labels = \(x) paste0(x, "%")
+  ) +
+
+  labs(
+    title = "Top 5 exportaciones",
+    x = "Producto (HS4)",
+    y = "Participación de mercado (%)"
+  ) +
+
+  theme_minimal() +
+
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+```
+
+
+
+```{r}
+imp_prod <- read_excel("Datasets/Malvinas/Nongeo/falkland-islandss-imported-products-1.xlsx")
+View(imp_prod)
+```
+
+
+
+
+
+```{r}
+impo_orig <- read_excel("Datasets/Malvinas/Nongeo/falkland-islandss-import-origins-1.xlsx")
+View(impo_orig)
+
+```
+
+```{r}
+imp_orig <- imp_orig %>% clean_names()
+imp_orig <- imp_orig %>%
+  mutate(
+    imports_usd = as.numeric(imports_usd)
+  )
+
+imp_orig <- imp_orig %>%
+  mutate(
+    share_2024 = imports_usd / sum(imports_usd)
+  )
+top5_cimp <- imp_orig %>%
+  slice_max(imports_usd, n = 5) %>%
+  arrange(desc(imports_usd))
+
+
+
+```
+``
+
+
+
+
+```{r}
+ggplot(top5_cimp) +
+  aes(
+    x = fct_reorder(country, share_2024, .desc = TRUE),
+    y = share_2024
+  ) +
+  geom_col(fill = "#112446") +
+
+  geom_text(
+    aes(label = scales::percent(share_2024, accuracy = 0.01)),
+    vjust = -0.5
+  ) +
+
+  scale_y_continuous(
+    labels = scales::label_percent()
+  ) +
+  labs(
+    title = "Importaciones por país",
+    x = "País",
+    y = "(%) importaciones"
+  ) +
+
+  theme_minimal()
+```
+```{r}
+exp_des <- read_excel("Datasets/Malvinas/Nongeo/falkland-islandss-export-destinations-1.xlsx")
+View(exp_des)
+exp_des <- exp_des %>% clean_names()
+exp_des <- exp_des %>%
+  mutate(
+    exports_usd = as.numeric(exports_usd)
+  )
+exp_des <- exp_des %>%
+  mutate(
+    share_2024 = exports_usd / sum(exports_usd)
+  )
+
+top5_cexp <- exp_des %>%
+  slice_max(exports_usd, n = 5) %>%
+  arrange(desc(exports_usd))
+
+
+
+
+
+str(top5_cexp)
+
+```
+
+```{r}
+ggplot(top5_cexp) +
+  aes(
+    x = fct_reorder(country, share_2024, .desc = TRUE),
+    y = share_2024
+  ) +
+  geom_col(fill = "#112446") +
+
+  geom_text(
+    aes(label = scales::percent(share_2024, accuracy = 0.01)),
+    vjust = -0.5
+  ) +
+
+  scale_y_continuous(
+    labels = scales::label_percent()
+  ) +
+  labs(
+    title = "Exportaciones por país",
+    x = "País",
+    y = "(%) importaciones"
+  ) +
+
+  theme_minimal()
+```
+
+
 ```{r}
 gasto_uk <- gasto_uk %>% 
   select(-c(1, 2, 3))
@@ -175,5 +309,15 @@ gasto_uk2 <- gasto_uk %>%
   )
 write.csv(gasto_uk2, "gasto_uk.csv", row.names = FALSE )
 
+```
+
+```{r}
+g_imports <- read_excel("Datasets/Malvinas/Nongeo/falkland-islandss-imported-products-1.xlsx")
+View(g_imports)
+str
+```
+
+```{r}
+str(imp_orig)
 ```
 
