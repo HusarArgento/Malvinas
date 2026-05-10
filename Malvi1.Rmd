@@ -187,9 +187,52 @@ ggplot(top5_exprod) +
 ```{r}
 imp_prod <- read_excel("Datasets/Malvinas/Nongeo/falkland-islandss-imported-products-1.xlsx")
 View(imp_prod)
+
+imp_prod <- imp_prod %>%
+  mutate(across(c(starts_with("imports"), starts_with("share")), as.numeric)) %>% clean_names()
+
+top5_improd <- imp_prod %>%
+  slice_max(imports_usd, n = 5) %>%
+  arrange(desc(imports_usd))
+
 ```
 
 
+```{r}
+ggplot(top5_improd) +
+  aes(
+    x = fct_reorder(hs4, share_percent, .desc = TRUE),
+    y = share_percent
+  ) +
+
+  geom_col(fill = "#112446") +
+
+  geom_text(
+    aes(
+      label = paste0(round(share_percent, 1), "%"),
+      vjust = ifelse(share_percent > 10, 1.5, -0.5),
+      color = ifelse(share_percent > 10, "white", "#8B0000")
+    )
+  ) +
+
+  scale_color_identity() +
+
+  scale_y_continuous(
+    labels = \(x) paste0(x, "%")
+  ) +
+
+  labs(
+    title = "Top 5 Importaciones",
+    x = "Producto (HS4)",
+    y = "Participación de mercado (%)"
+  ) +
+
+  theme_minimal() +
+
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+```
 
 
 
@@ -295,29 +338,28 @@ ggplot(top5_cexp) +
 
   theme_minimal()
 ```
-
-
 ```{r}
-gasto_uk <- gasto_uk %>% 
-  select(-c(1, 2, 3))
-
-gasto_uk2 <- gasto_uk %>% 
-  pivot_longer(
-    cols = where(is.numeric),
-    names_to = "anio",
-    values_to = "pbi_pct"
-  )
-write.csv(gasto_uk2, "gasto_uk.csv", row.names = FALSE )
+malv_eleck <- read_csv("Datasets/Malvinas/Nongeo/Malvinas_consumo_electricidad.csv")
+View(Malv_elec)
+str(malv_elec)
 
 ```
-
 ```{r}
-g_imports <- read_excel("Datasets/Malvinas/Nongeo/falkland-islandss-imported-products-1.xlsx")
-View(g_imports)
-str
+malv_elec2 <- malv_eleck |> 
+  clean_names() |>
+  select(fecha = variable_observation_date, consumo = variable_observation_value)
+  
+malv_elec_a <- malv_elec |> pivot_wider(names_from = fecha, values_from = consumo)  
+  
+malv_ele2 <- malv_elec |> 
+  clean_names() |>
+  select(fecha = variable_observation_date, consumo = variable_observation_value)
 ```
 
+
 ```{r}
-str(imp_orig)
+ggplot(malv_elec2) +
+  aes(x=fecha, y=consumo) +
+  geom_line(color="red", size=0.4)
 ```
 
